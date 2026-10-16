@@ -1,0 +1,6 @@
+{
+  "name": "Reverse Simulation - AI Agent Orchestra",
+  "description": "Visual command center and orchestra node for multi-agent local execution, Godot state synchronization, and machine routing.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

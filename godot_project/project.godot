@@ -1,0 +1,22 @@
+config_version=5
+
+[application]
+
+config/name="Reverse Simulation - AI Agent Orchestra"
+config/description="2D Game Command Center for visual AI agent orchestration"
+run/main_scene="res://scenes/office_world.tscn"
+config/features=PackedStringArray("4.3", "4.4", "4.6", "Forward Plus")
+
+[autoload]
+
+WSClient="*res://autoload/ws_client.gd"
+
+[display]
+
+window/size/viewport_width=1280
+window/size/viewport_height=720
+window/stretch/mode="canvas_items"
+
+[rendering]
+
+textures/canvas_textures/default_texture_filter=0
